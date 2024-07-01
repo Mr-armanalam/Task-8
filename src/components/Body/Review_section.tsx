@@ -30,7 +30,7 @@ function Review_section() {
           <p className="font-sans font-normal text-gray-800 pb-8 text-lg">
             This is a great product for anyone looking to generate leads, with
             Masco you can create new lead lists or import them from your
-            company's database.
+            companys database.
           </p>
 
           <div className="flex">
@@ -100,7 +100,7 @@ function Review_section() {
           </p>
           <p className="font-sans font-normal text-gray-800 pb-8 text-lg">
             I was hesitant to invest in it, but after talking to support and
-            taking first-hand experience I must say it's a no-brainer.
+            taking first-hand experience I must say its a no-brainer.
           </p>
 
           <div className="flex">

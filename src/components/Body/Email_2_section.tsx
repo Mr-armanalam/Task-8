@@ -21,7 +21,7 @@ function Email_2_section() {
           </p>
 
           <p className="font-sans w-90% text-slate-700 text-xl border-b-2 pb-10 font-normal">
-            Turn Masco's cold email outreach into a lead-converting sales
+            Turn Mascos cold email outreach into a lead-converting sales
             machine. Our simple-to-use features combined with our done-for-you
             services will enable you to generate and close deals faster.
           </p>

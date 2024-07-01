@@ -68,7 +68,7 @@ function Discover_section() {
               Scale Email Hyper-personalization
             </p>
             <p className="pl-10 py-4">
-              One size doesn't fit all & without personalization, your emails
+              One size does not fit all & without personalization, your emails
               will look like...
             </p>
             <div className="pl-10 font-sans font-bold text-lg text-gray-600">
