@@ -1,5 +1,6 @@
 import React from 'react'
 import {RiVideoFill} from 'react-icons/ri'
+import Image from "next/image";
 
 function Email_1_section() {
   return (
@@ -19,12 +20,16 @@ function Email_1_section() {
             <a href="#">Get Started</a>
           </button>
           <button className="h-14 w-60 border rounded mb-4 flex flex-row justify-center items-center  border-2 ml-4 font-semibold text-stone-700 border-slate-800 ">
-            <RiVideoFill/>  <a className='pl-2' href="#"> See How it Works</a>
+            <RiVideoFill />{" "}
+            <a className="pl-2" href="#">
+              {" "}
+              See How it Works
+            </a>
           </button>
         </div>
 
         <div className="w-screen flex items-center justify-center">
-          <img src="assets/image/hero-dashboard.jpg" alt="email" />
+          <Image width={1086} height={550} src="/assets/image/hero-dashboard.jpg" alt="email" />
         </div>
       </div>
     </div>

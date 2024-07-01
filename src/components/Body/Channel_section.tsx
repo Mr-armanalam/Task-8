@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Channel_section() {
   return (
@@ -17,39 +18,39 @@ export function Channel() {
   return (
     <div className="flex flex-row justify-evenly">
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-gmail.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-gmail.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Gmail</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-dropbox.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-dropbox.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Dropbox</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-figma.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-figma.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Figma</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-mailchimp.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-mailchimp.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Mailchimp</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-shopify.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-shopify.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Shopify</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-skype.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-skype.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Skype</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-slack.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-slack.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Slack</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-snapchat.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-snapchat.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Snapchat</p>
       </div>
       <div className="flex w-[250px] items-center  mx-4 mb-8 border py-4 px-4 rounded-lg">
-        <img src="assets/image/icon-color-spotify.svg" alt="gmail" />
+        <Image width={57} height={58} src="/assets/image/icon-color-spotify.svg" alt="gmail" />
         <p className=" text-gray-800 pl-8 text-2xl font-semibold">Spotify</p>
       </div>
     </div>

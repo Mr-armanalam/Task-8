@@ -1,14 +1,15 @@
 import React from 'react'
 import { BsPatchCheckFill } from "react-icons/bs";
+import Image from "next/image";
 
 function Email_2_section() {
     const check_icon_clor = { color: "#3147FF" };
   return (
     <div className="flex flex-col pt-20">
       <div className="flex flex-row justify-evenly flex-wrap pb-12 px-10 mb-4">
-        <img
+        <Image
           className="mt-12 pr-4"
-          src="assets/image/content-img-1.png"
+          src="/assets/image/content-img-1.png"
           width="561"
           height="501"
           alt="cntnt_img1"
@@ -80,9 +81,10 @@ function Email_2_section() {
           </p>
         </div>
 
-        <img
+        <Image
+          
           className=" pl-2 py-8"
-          src="assets/image/content-img-2.png"
+          src="/assets/image/content-img-2.png"
           width="561"
           height="501"
           alt="abc"

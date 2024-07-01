@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 import { IoStar } from "react-icons/io5";
+import Image from "next/image";
 
 function Review_section() {
-    const check_icon_clor = {
-      color: "#10b981",
-      width: "30px",
-      height: "25px",
-    };
+  const check_icon_clor = {
+    color: "#10b981",
+    width: "30px",
+    height: "25px",
+  };
   return (
     <div className="w-auto h-auto pb-28 pt-16 bg-slate-50">
       <h1 className="text-center my-12 mx-auto w-[700px] text-zinc-900 font-bold text-5xl">
@@ -33,9 +34,10 @@ function Review_section() {
           </p>
 
           <div className="flex">
-            <img
-              className="w-[60px] h-[60px]"
-              src="assets/image/testimonial-avater-1.jpg"
+            <Image
+              width={60}
+              height={60}
+              src="/assets/image/testimonial-avater-1.jpg"
               alt="avatar"
             />
 
@@ -67,9 +69,10 @@ function Review_section() {
           </p>
 
           <div className="flex">
-            <img
-              className="w-[60px] h-[60px]"
-              src="assets/image/testimonial-avater-2.jpg"
+            <Image
+              width={60}
+              height={60}
+              src="/assets/image/testimonial-avater-2.jpg"
               alt="avatar"
             />
 
@@ -102,9 +105,10 @@ function Review_section() {
 
           <div className="flex">
             <div className="reviewer_image">
-              <img
-                className="w-[60px] h-[60px]"
-                src="assets/image/testimonial-avater-3.jpg"
+              <Image
+                width={60}
+                height={60}
+                src="/assets/image/testimonial-avater-3.jpg"
                 alt="avatar"
               />
             </div>
@@ -138,9 +142,10 @@ function Review_section() {
 
           <div className="flex">
             <div className="reviewer_image">
-              <img
-                className="w-[60px] h-[60px]"
-                src="assets/image/testimonial-avater-4.jpg"
+              <Image
+                width={60}
+                height={60}
+                src="/assets/image/testimonial-avater-4.jpg"
                 alt="avatar"
               />
             </div>
@@ -174,9 +179,10 @@ function Review_section() {
 
           <div className="flex">
             <div className="reviewer_image">
-              <img
-                className="w-[60px] h-[60px]"
-                src="assets/image/testimonial-avater-1 (1).jpg"
+              <Image
+                width={60}
+                height={60}
+                src="/assets/image/testimonial-avater-1 (1).jpg"
                 alt="avatar"
               />
             </div>
@@ -210,9 +216,10 @@ function Review_section() {
 
           <div className="flex">
             <div className="reviewer_image">
-              <img
-                className="w-[60px] h-[60px]"
-                src="assets/image/testimonial-avater-6.jpg"
+              <Image
+                width={60}
+                height={60}
+                src="/assets/image/testimonial-avater-6.jpg"
                 alt="avatar"
               />
             </div>
@@ -240,4 +247,4 @@ function Review_section() {
   );
 }
 
-export default Review_section
+export default Review_section;

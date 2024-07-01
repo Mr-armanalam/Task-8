@@ -1,6 +1,6 @@
 import React from "react";
 import {FaFacebook, FaFacebookF, FaGithub, FaInstagram, FaXTwitter} from 'react-icons/fa6'
-
+import Image from 'next/image'
 function Footer() {
   return (
     <footer className="w-screen flex flex-col bg-gray-950 justify-center">
@@ -93,7 +93,7 @@ function Footer() {
       </div>
       <div className="copyright_container flex flex-row flex-wrap justify-between py-4 mx-10 border-t border-slate-400">
         <div>
-          <img src="assets/image/logo-blue-light.png" alt="logo" />
+          <Image width={110} height={24} src="/assets/image/logo-blue-light.png" alt="logo" />
         </div>
         <p className=" font-sans text-medium font-medium text-stone-300">
           © Copyright 2024, All Rights Reserved by PixcelsThemes

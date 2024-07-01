@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Process_section() {
   return (
@@ -9,7 +10,12 @@ function Process_section() {
 
       <div className="flex flex-row flex-wrap justify-evenly">
         <div className="p-8 border rounded-lg w-[407px]  mb-4">
-          <img src="assets/image/icon-white-process-1.svg" alt="step1_icon" />
+          <Image
+            width={74}
+            height={70}
+            src="/assets/image/icon-white-process-1.svg"
+            alt="step1_icon"
+          />
 
           <p className="mt-12 mb-10 text-teal-100 font-bold text-2xl underline decoration-2 underline-offset-8">
             Step1
@@ -25,7 +31,12 @@ function Process_section() {
           </p>
         </div>
         <div className="p-8 border rounded-lg w-[407px]  mb-4">
-          <img src="assets/image/icon-white-process-2.svg" alt="step1_icon" />
+          <Image
+            width={74}
+            height={70}
+            src="/assets/image/icon-white-process-2.svg"
+            alt="step1_icon"
+          />
 
           <p className="mt-12 mb-10 text-teal-100 font-bold text-2xl underline decoration-2 underline-offset-8">
             Step2
@@ -41,7 +52,12 @@ function Process_section() {
           </p>
         </div>
         <div className="p-8 border rounded-lg w-[407px] mb-4">
-          <img src="assets/image/icon-white-process-3.svg" alt="step1_icon" />
+          <Image
+            width={74}
+            height={70}
+            src="/assets/image/icon-white-process-3.svg"
+            alt="step1_icon"
+          />
 
           <p className="mt-12 mb-10 text-teal-100 font-bold text-2xl underline decoration-2 underline-offset-8">
             Step3

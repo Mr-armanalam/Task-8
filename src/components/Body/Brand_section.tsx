@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function Brand_section() {
   return (
     <div className="px-10 ">
@@ -8,51 +8,69 @@ function Brand_section() {
       </p>
 
       <div className="flex flex-row items-center overflow-x-scroll no-scrollbar scroll-smooth pb-10">
-        <img
-          className="w-32 mr-32 h-10 mr-32"
-          src="assets/image/brand-1.png"
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-32"
+          src="/assets/image/brand-1.png"
           alt="airbnb"
-        ></img>
-        <img
-          className="w-32 mr-32 h-10 mr-32"
-          src="assets/image/brand-2.png"
+        />
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-32"
+          src="/assets/image/brand-2.png"
           alt="airbnb"
-        ></img>
-        <img
-          className="w-32 mr-32 h-10 mr-32"
-          src="assets/image/brand-3.png"
+        />
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-32"
+          src="/assets/image/brand-3.png"
           alt="airbnb"
-        ></img>
-        <img
-          className="w-32 mr-32 h-10 mr-32"
-          src="assets/image/brand-4.png"
+        />
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-32"
+          src="/assets/image/brand-4.png"
           alt="airbnb"
-        ></img>
-        <img
-          className="w-32 mr-32 h-10 mr-32"
-          src="assets/image/brand-5.png"
+        />
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-32"
+          src="/assets/image/brand-5.png"
           alt="airbnb"
-        ></img>
-        <img
+        />
+        <Image
+          width={128}
+          height={40}
           className="w-32 mr-32 h-8 mr-32"
-          src="assets/image/brand-6.png"
+          src="/assets/image/brand-6.png"
           alt="airbnb"
-        ></img>
-        <img
-          className="w-32 mr-32 h-10 mr-32"
-          src="assets/image/brand-1.png"
+        />
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-32"
+          src="/assets/image/brand-1.png"
           alt="airbnb"
-        ></img>
-        <img
-          className="w-32 mr-32 h-10 mr-32"
-          src="assets/image/brand-2.png"
+        />
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-32"
+          src="/assets/image/brand-2.png"
           alt="airbnb"
-        ></img>
-        <img
-          className="w-32 mr-32 h-10 mr-8"
-          src="assets/image/brand-3.png"
+        />
+        <Image
+          width={128}
+          height={40}
+          className=" mr-32 mr-8"
+          src="/assets/image/brand-3.png"
           alt="airbnb"
-        ></img>
+        />
       </div>
     </div>
   );

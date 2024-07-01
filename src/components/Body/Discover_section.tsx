@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image";
 
 function Discover_section() {
   return (
@@ -8,11 +9,12 @@ function Discover_section() {
       </h1>
 
       <div className="flex flex-row justify-evenly flex-wrap py-8">
-        
         <div className="bg-white flex flex-row justify-between border-box flex-wrap border w-[620px] rounded-lg mr-6 mb-6 p-12">
-          <img
+          <Image
+            width={98}
+            height={97}
             className="w-[100px] mb-auto"
-            src="assets/image/icon-black-service-7.svg"
+            src="/assets/image/icon-black-service-7.svg"
             alt="black_service"
           />
           <div className="flex flex-col w-[400px]">
@@ -30,9 +32,11 @@ function Discover_section() {
         </div>
 
         <div className="bg-white flex flex-row justify-between border-box flex-wrap border w-[620px] rounded-lg mr-6  mb-6 p-12">
-          <img
+          <Image
+            width={98}
+            height={96}
             className="w-[100px] mb-auto"
-            src="assets/image/icon-black-service-8.svg"
+            src="/assets/image/icon-black-service-8.svg"
             alt="black_service2"
           />
 
@@ -51,9 +55,11 @@ function Discover_section() {
         </div>
 
         <div className="bg-white flex flex-row justify-between flex-wrap border w-[620px] rounded-lg mr-6 mb-6 p-12">
-          <img
+          <Image
+            width={98}
+            height={95}
             className="w-[100px] mb-auto"
-            src="assets/image/icon-black-service-9.svg"
+            src="/assets/image/icon-black-service-9.svg"
             alt="black_service3"
           />
 
@@ -72,9 +78,11 @@ function Discover_section() {
         </div>
 
         <div className="bg-white flex flex-row justify-between flex-wrap border w-[620px] rounded-lg mr-6 mb-6 p-12">
-          <img
+          <Image
+            width={98}
+            height={101}
             className="w-[100px] mb-auto"
-            src="assets/image/icon-black-service-10.svg"
+            src="/assets/image/icon-black-service-10.svg"
             alt="black_service3"
           />
 
@@ -91,7 +99,6 @@ function Discover_section() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
